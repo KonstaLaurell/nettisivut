@@ -1,0 +1,48 @@
+body,
+html {
+    height: 100%
+}
+
+body {
+    background-position: center;
+    min-height: 100%;
+    background-size: cover;
+    display: flex;
+    margin: 0 0;
+    justify-content: center;
+}
+
+audio {
+    display: none;
+}
+
+@media screen and (max-width: 800px) {
+    .aivo {
+        font-size: 10vw;
+    }
+
+    .quack {
+        font-size: 15vw;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .aivo {
+        font-size: 5vw;
+    }
+
+    .quack {
+        font-size: 10vw;
+    }
+}
+
+.aivo {
+    color: white;
+}
+
+.quack {
+    color: white;
+    text-align: center;
+    visibility: hidden;
+
+}
