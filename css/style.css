@@ -1,91 +1,76 @@
 body {
-    background-image: url(../img/photos/12c5860a5e91aa0498b4a539a36138b0.jpg);
-    background-size: cover; 
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    align-content:space-between;
-    margin: 0 0;
-}
-
-.heade{
     background-color: rgb(24, 24, 24);
-    text-align: left;
-    color: #ffffff;;
-    border-radius: 25px;
-    padding-left: 1vw;
-    margin: 1vw;
-
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
 }
+
+.heade {
+    background-color: rgba(24, 24, 24, 0.8);
+    text-align: left;
+    color: #ffffff;
+    border-radius: 25px;
+    padding: 1vw;
+    margin: 1vw;
+    font-size: 3vw;
+}
+
 @media screen and (max-width: 800px) {
-    .heade{
+    .heade {
         font-size: 7vw;
         height: 9vw;
     }
-    .firstcont{
-        width: 90vw;
-    }
 }
-@media screen and (min-width: 800px) {
-    .heade{
-        height: 4vw;
-        font-size: 3vw;
-    }
-    .firstcont{
-        width: 40vw;
-    }
-}
-.firstcont{
+
+.firstcont {
     text-align: center;
-    background-color: rgb(24, 24, 24);
+    background-color: rgba(24, 24, 24, 0.8);
     color: white;
     border-radius: 30px;
-    padding-bottom: 2%;
-    font-family: 'Ubuntu', sans-serif;
+    padding: 2%;
     font-size: 20px;
     margin: auto;
-}
-.img1{
     width: 90%;
-    position:static;
+    max-width: 800px;
+}
+
+.img1 {
+    width: 90%;
     padding-top: 3%;
     padding-bottom: 2%;
     border-radius: 3em;
 }
-.inst{
+
+.inst {
     margin-top: 1em;
     text-align: center;
     color: orange;
-    background-color: rgb(24, 24, 24);
-    margin-left: 20%;
-    margin-right: 20%;
+    background-color: rgba(24, 24, 24, 0.8);
     border-radius: 3em;
     height: 2em;
     font-weight: bold;
-    font-family: 'Ubuntu', sans-serif;
     padding-top: 1em;
     font-size: 1em;
     font-style: italic;
 }
-.projects{
+
+.projects {
     margin-top: 30px;
     display: flex;
-    flex-direction:row; flex-wrap:wrap;
+    flex-wrap: wrap;
     justify-content: center;
-    line-height: 2em;
 }
-.notescont{
+
+.notescont {
     padding: 2%;
     width: 5.5em;
     text-align: left;
-    background-color: rgb(24, 24, 24);
+    background-color: rgba(24, 24, 24, 0.8);
     color: white;
     border-radius: 30px;
-    font-family: 'Ubuntu', sans-serif;
     margin-top: 2em;
-    margin-top: 2em;
-    text-align: center;
     margin: 0 1vw;
 }
-.noteimg{
+
+.noteimg {
     width: 5em;
 }
